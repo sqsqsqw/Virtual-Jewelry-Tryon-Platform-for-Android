@@ -17,5 +17,5 @@ Android App需要与服务器端程序以及试穿模块同时运行，若缺少
 back_url = http://192.168.1.106:8081
 tryon_url = https://192.168.1.106/b/src/index.html
 ```
-##运行
+## 运行
 个人测试使用真机调试，IDE为Android Studio，准备工作完成后即可安装apk或直接运行或通过命令运行
