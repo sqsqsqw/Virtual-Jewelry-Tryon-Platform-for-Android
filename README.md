@@ -4,9 +4,7 @@
 ## 前言
 由于前期设计及和后期实现的差别问题，将饰品定义为能够在面部穿戴的物品，包括但不限于耳环，帽子眼镜等物品。测试数据中目前只存在帽子和眼镜种类。
 
-本设计用于大连工业大学信息科学与工程学院的毕业设计答辩，不用于商业用途。基于[DrinkCupTea-ShoppingMall][1][1]: https://github.com/DrinkCupTea/ShoppingMall 的demo进行修改再开发，Repository的许可证为MIT，其实是个人的无意之举，若有侵权等问题请及时联系作者。
-
-
+本设计用于大连工业大学信息科学与工程学院的毕业设计答辩，不用于商业用途。基于[DrinkCupTea-ShoppingMall][1] [1]: https://github.com/DrinkCupTea/ShoppingMall 的demo进行修改再开发，Repository的许可证为MIT，其实是个人的无意之举，若有侵权等问题请及时联系作者。
 
 
 ## 准备
