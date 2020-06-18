@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:roundiv="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/bgcolor">
+
+    <!--头开始-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/themeColor">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/shops"
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:layout_margin="2dp"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+    <!--头结束-->
+
+    <!--商家内容开始-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+        <com.Hashqi.try_on_client.Component.MyListView
+            android:id="@+id/shopItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </com.Hashqi.try_on_client.Component.MyListView>
+    </ScrollView>
+
+    <!--底开始-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:background="@color/bottomBar">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <ImageButton
+                android:id="@+id/shopToHome"
+                android:src="@drawable/home_normal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/bottomBarButton"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/bar_home"
+                android:textAlignment="center"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <ImageButton
+                android:src="@drawable/shop_on_press"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/bottomBarButton"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/bar_shop"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <ImageButton
+                android:id="@+id/shopToMessage"
+                android:src="@drawable/message_normal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/bottomBarButton"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/bar_distribute"
+                android:textAlignment="center"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <ImageButton
+                android:id="@+id/shopToSelf"
+                android:src="@drawable/self_normal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/bottomBarButton"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/bar_self"
+                android:textAlignment="center"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
+

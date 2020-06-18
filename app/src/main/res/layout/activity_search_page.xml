@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Page.searchPage.SearchPageActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/white">
+
+            <ImageView
+                android:id="@+id/iv_back_"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="5dp"
+                android:padding="10dp"
+                android:src="@drawable/goods_back" />
+
+            <EditText
+                android:id="@+id/searchBar"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_margin="15dp"
+                android:layout_weight="4"
+                android:maxLines="1"
+                android:hint="点击搜索"
+                android:paddingLeft="10dp"
+                android:drawablePadding="6dp"
+                android:paddingStart="5dp"
+                android:textCursorDrawable="@drawable/login_cursor"
+                android:background="@drawable/bg_username"
+                android:inputType="text"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:orientation="vertical">
+            </LinearLayout>
+        </LinearLayout>
+
+        <com.Hashqi.try_on_client.Component.MyListView
+            android:id="@+id/searchList"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content">
+        </com.Hashqi.try_on_client.Component.MyListView>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,114 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!--主页的style开始-->
+    <style name="GoodTextView" parent="TextAppearance.AppCompat.Widget.TextView.SpinnerItem">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+    <style name="GoodImageView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:adjustViewBounds">true</item>
+        <!--<item name="roundiv:left_top_radius">10dp</item>-->
+        <!--<item name="roundiv:right_top_radius">10dp</item>-->
+    </style>
+
+    <style name="GoodImageViewDetail">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:adjustViewBounds">true</item>
+        <!--<item name="roundiv:left_top_radius">10dp</item>-->
+        <!--<item name="roundiv:right_top_radius">10dp</item>-->
+    </style>
+    <style name="GoodLinearLayoutL">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/good_bar_layout</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_marginLeft">3dp</item>
+        <item name="android:layout_marginRight">3dp</item>
+        <item name="android:layout_marginTop">3dp</item>
+        <item name="android:layout_marginBottom">3dp</item>
+    </style>
+    <!--主页的style结束-->
+
+    <!--商家的style开始-->
+    <style name="shopsImageView">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+
+    <style name="shopsOutline">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@drawable/good_bar_layout</item>
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:padding">5dp</item>
+    </style>
+    <!--商家的style结束-->
+
+    <!--消息的style开始-->
+    <!--消息的style结束-->
+
+    <!--个人中心的style开始-->
+    <style name="settingLinearLayout">
+        <item name="android:background">@drawable/good_bar_layout</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_marginBottom">12dp</item>
+    </style>
+    <style name="settingImage">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:layout_margin">12dp</item>
+    </style>
+    <style name="settingText">
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginTop">11dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">5</item>
+        <item name="android:maxLines">1</item>
+    </style>
+    <!--个人中心的style结束-->
+
+    <style name="bottomBarButton">
+        <item name="android:layout_margin">6dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:background">@color/transParent</item>
+    </style>
+
+    <!--王业煌做的页面开始-->
+    <!--王业煌做的页面结束-->
+</resources>
